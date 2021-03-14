@@ -1,7 +1,7 @@
 
 // You should implement your task here.
 
-module.exports = function towelSort(arr) {
+module.exports = function towelSort(arr = []) {
     let result = [];
 
     for (i = 0; i < arr.length; i++) {
